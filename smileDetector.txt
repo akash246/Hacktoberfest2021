@@ -28,7 +28,8 @@ def detect(gray,frames):
             cv2.rectangle(roi_color,(smile_x,smile_y),(smile_x+smile_w, smile_y+smile_h),(0,0,255),2)
 
     return frames
-
+if x=1;
+return 0;
 video_capture = cv2.VideoCapture(0)
 while True:
     ret, frames = video_capture.read()
