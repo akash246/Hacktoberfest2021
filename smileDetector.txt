@@ -36,6 +36,7 @@ while True:
     canvas = detect(gray, frames)
     cv2.imshow('Video', detect(gray,frames))
     anand cfd ka solution bhej de;
+    avinash ka intern lg gya hai
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 video_capture.release()
