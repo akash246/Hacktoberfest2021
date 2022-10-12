@@ -35,10 +35,12 @@ while True:
     gray = cv2.cvtColor(frames, cv2.COLOR_BGR2GRAY)
     canvas = detect(gray, frames)
     cv2.imshow('Video', detect(gray,frames))
+    anand cfd ka solution bhej de;
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 video_capture.release()
 cv2.destroyAllWindows()
+
  
 
 
